@@ -36,6 +36,8 @@ public class BinarySearch {
         System.out.println("Enter the element needs to be searched");
 
         int key = input.nextInt();
+        
+        input.close();
 
         System.out.println(binarySearch(arr,0,size-1, key));
         
