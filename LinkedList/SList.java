@@ -28,6 +28,7 @@ public class SList {
        public SList(int x){
            sentinel = new IntNode(x, null);
            sentinel.next = new IntNode(x, null);
+           size =1;
        }
       
       public void addFirst(int x){
